@@ -18,10 +18,12 @@ import (
 // A25 is a type for a 25 byte (not base58 encoded) bitcoin address.
 type A25 [25]byte
 
+// Version returns the address version
 func (a *A25) Version() byte {
 	return a[0]
 }
 
+// EmbeddedChecksum returns the checksum
 func (a *A25) EmbeddedChecksum() (c [4]byte) {
 	copy(c[:], a[21:])
 	return
