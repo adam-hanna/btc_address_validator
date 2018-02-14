@@ -1,20 +1,3 @@
-[![Build Status](https://travis-ci.org/adam-hanna/btc_address_validator.svg?branch=master)](https://travis-ci.org/adam-hanna/btc_address_validator) [![Coverage Status](https://coveralls.io/repos/github/adam-hanna/btc_address_validator/badge.svg?branch=master)](https://coveralls.io/github/adam-hanna/btc_address_validator?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/adam-hanna/btc_address_validator)](https://goreportcard.com/report/github.com/adam-hanna/btc_address_validator) [![GoDoc](https://godoc.org/github.com/adam-hanna/jwt-auth/btc_address_validator?status.svg)](https://godoc.org/github.com/adam-hanna/btc_address_validator)
-
-# BTC ADDRESS VALIDATOR
-
-FROM: http://rosettacode.org/wiki/Bitcoin/address_validation#Go
-
-DATED: 5 FEB 2018
-
-
-## USAGE
-~~~ go
-ok, err := validator.ValidA58([]byte("1NrxWfPM3w8GVXBkY2LpGy983wRxX45LMc"))
-~~~
-
-
-## LICENSE
-~~~
 The MIT License (MIT)
 
 Copyright (c) 2018 Adam Hanna
@@ -36,4 +19,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-~~~
+
